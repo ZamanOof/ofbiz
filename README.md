@@ -10,17 +10,16 @@ the provision file adds a repository for Java JRE, downloads Java JRE and JDK, s
 
 
 Requires:
-Oracle Virtualbox
-Vagrant
+-- Oracle Virtualbox
+-- Vagrant
 
 
 To install:
 
-mkdir vagrant-ofbiz
-cd vagrant-ofbiz
-clone --recursive https://github.com/agcilantro/ofbiz.git
 
-vagrant-up
+git clone --recursive https://github.com/agcilantro/ofbiz.git ; cd ofbiz/
+
+vagrant up
 
 
 To stop the ofbiz instance:
